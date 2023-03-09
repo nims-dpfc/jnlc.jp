@@ -1,0 +1,75 @@
+body {
+    width: 900px;
+}
+div#headerArea{
+    height: 252px;
+}
+div#topColorArea{
+    height: 42px;
+    background-color: #28776a;
+}
+div#logoArea{
+    height: 150px;
+}
+div#gnaviArea{
+    height: 60px;
+    margin: 0;
+    padding: 12px 0;
+    background: url(/jnlc.jp/img/bg_navi.gif) repeat-x left top;
+}
+li#gnaviAbout a {
+    background: url(/jnlc.jp/img/gnavi_about.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+li#gnaviLocation a {
+    background: url(/jnlc.jp/img/gnavi_location.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+li#gnaviLink a {
+    background: url(/jnlc.jp/img/gnavi_link.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+ul{
+    margin: 0;
+    padding: 0 40px;
+}
+li.gnaviButton{
+    overflow: hidden;
+    list-style-type: none;
+    float: left;
+    height: 36px;
+    width: 140px;
+    margin: 0 10px 0 0;
+}
+.gnaviImage{
+    display: block;
+    height: 36px;
+    text-indent: -9999px; 
+}
+div#footerArea{
+    height: 115px;
+    text-align: center;
+}
+div#bottomColorArea{
+    height: 33px;
+    padding: 15px 0;
+    background-color: #28776a;
+    border-top: 1px solid #135b4f;
+    font-size: 90%;
+    color: #ffffff;
+    line-height: 140%;
+}
+p#copyright{
+    margin: 0;
+}
+p#support{
+    margin: 0;
+    font-size: 90%;
+}
+div#bannerArea{
+    height: 26px;
+    padding: 13px 0;
+}
