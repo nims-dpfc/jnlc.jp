@@ -1,5 +1,38 @@
 body {
+    background-color: #e6e6e6;
+    color: #600000;
+    font-size: 80%;
+    font-family: verdana,sans-serif;
+    line-height: 160%;
+}
+div#page{
     width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+}
+div#mainContents{
+    width: 820px;
+    margin: 0 auto;
+    padding: 40px 40px 15px;
+    text-align: left;
+    min-height: 500px;
+    height: auto !important;
+    font-size: small;
+}
+h2{
+margin: 0 0 14px 0;
+    padding: 0;
+    color: #28776a;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 120%;
+}
+h3{
+    margin: 25px 0 5px;
+    color: #28776a;
+    font-size: 120%;
+    font-weight: bold;
 }
 div#headerArea{
     height: 252px;
@@ -72,4 +105,9 @@ p#support{
 div#bannerArea{
     height: 26px;
     padding: 13px 0;
+    display: flex;
+    justify-content: center;
+}
+a.bannerIcon{
+    margin: 0 9px;
 }
