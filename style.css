@@ -49,20 +49,20 @@ div#gnaviArea{
     height: 60px;
     margin: 0;
     padding: 12px 0;
-    background: url(/img/bg_navi.gif) repeat-x left top;
+    background: url(img/bg_navi.gif) repeat-x left top;
 }
 li#gnaviAbout a {
-    background: url(/img/gnavi_about.gif);
+    background: url(img/gnavi_about.gif);
     background-repeat: no-repeat;
     background-position: left top;
 }
 li#gnaviLocation a {
-    background: url(/img/gnavi_location.gif);
+    background: url(img/gnavi_location.gif);
     background-repeat: no-repeat;
     background-position: left top;
 }
 li#gnaviLink a {
-    background: url(/img/gnavi_link.gif);
+    background: url(img/gnavi_link.gif);
     background-repeat: no-repeat;
     background-position: left top;
 }
