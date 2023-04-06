@@ -1,4 +1,6 @@
-test
+---
+layout: default
+---
 
 <title>Location | Japan National Research Institutes Library Consortium</title>
 
