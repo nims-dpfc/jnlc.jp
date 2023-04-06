@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    background-color: #e6e6e6;
+    color: #600000;
+    font-size: 80%;
+    font-family: verdana,sans-serif;
+    line-height: 160%;
+}
+div#page{
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+}
+div#mainContents{
+    width: 820px;
+    margin: 0 auto;
+    padding: 40px 40px 15px;
+    text-align: left;
+    min-height: 500px;
+    height: auto !important;
+    font-size: small;
+}
+h2{
+margin: 0 0 14px 0;
+    padding: 0;
+    color: #28776a;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 120%;
+}
+h3{
+    margin: 25px 0 5px;
+    color: #28776a;
+    font-size: 120%;
+    font-weight: bold;
+}
+div#headerArea{
+    height: 252px;
+}
+div#topColorArea{
+    height: 42px;
+    background-color: #28776a;
+}
+div#logoArea{
+    height: 150px;
+}
+div#gnaviArea{
+    height: 60px;
+    margin: 0;
+    padding: 12px 0;
+    background: url(img/bg_navi.gif) repeat-x left top;
+}
+li#gnaviAbout a {
+    background: url(img/gnavi_about.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+li#gnaviLocation a {
+    background: url(img/gnavi_location.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+li#gnaviLink a {
+    background: url(img/gnavi_link.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+ul{
+    margin: 0;
+    padding: 0 40px;
+}
+li.gnaviButton{
+    overflow: hidden;
+    list-style-type: none;
+    float: left;
+    height: 36px;
+    width: 140px;
+    margin: 0 10px 0 0;
+}
+.gnaviImage{
+    display: block;
+    height: 36px;
+    text-indent: -9999px; 
+}
+div#footerArea{
+    height: 115px;
+    text-align: center;
+}
+div#bottomColorArea{
+    height: 33px;
+    padding: 15px 0;
+    background-color: #28776a;
+    border-top: 1px solid #135b4f;
+    font-size: 90%;
+    color: #ffffff;
+    line-height: 140%;
+}
+p#copyright{
+    margin: 0;
+}
+p#support{
+    margin: 0;
+    font-size: 90%;
+}
+div#bannerArea{
+    height: 26px;
+    padding: 13px 0;
+    display: flex;
+    justify-content: center;
+}
+a.bannerIcon{
+    margin: 0 9px;
+}
+a:link{
+    color: #04419a;
+}
+a:visited{
+    color: #00327c;
+}
